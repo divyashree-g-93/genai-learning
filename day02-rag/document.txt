@@ -1,0 +1,21 @@
+AWS S3 Security Guidelines
+
+Amazon S3 is an object storage service used to store and retrieve data.
+
+S3 buckets should normally not be publicly accessible unless there is a specific business requirement.
+
+IAM policies should follow the principle of least privilege.
+
+Bucket policies can be used to control access to S3 resources.
+
+S3 Block Public Access provides controls that help prevent public access to buckets and objects.
+
+Server-side encryption should be enabled to protect data at rest.
+
+S3 Versioning can be enabled to preserve and recover previous versions of objects.
+
+CloudTrail can be used to record API activity related to S3.
+
+S3 access logging and CloudTrail can help with security auditing and troubleshooting.
+
+For cross-account access, IAM roles and bucket policies can be used to grant controlled access to another AWS account.
